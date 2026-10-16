@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-labelledby="title desc">
+  <title id="title">Storytelling card-game prototype architecture</title>
+  <desc id="desc">A diagram showing UI, game context, pure reducer and scoring, and local or remote adapters.</desc>
+  <style>text{font:16px system-ui,sans-serif;fill:#172033}.box{fill:#f5f1ff;stroke:#6d4aff;stroke-width:2}.arrow{stroke:#536078;stroke-width:2;marker-end:url(#m)}</style>
+  <defs><marker id="m" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#536078"/></marker></defs>
+  <rect class="box" x="30" y="85" width="145" height="80" rx="14"/><text x="102" y="120" text-anchor="middle">UI screens</text><text x="102" y="145" text-anchor="middle">intent + display</text>
+  <rect class="box" x="220" y="85" width="170" height="80" rx="14"/><text x="305" y="120" text-anchor="middle">Game context</text><text x="305" y="145" text-anchor="middle">guards actions</text>
+  <rect class="box" x="435" y="85" width="170" height="80" rx="14"/><text x="520" y="120" text-anchor="middle">Reducer + scoring</text><text x="520" y="145" text-anchor="middle">pure domain logic</text>
+  <rect class="box" x="650" y="35" width="90" height="55" rx="12"/><text x="695" y="68" text-anchor="middle">Local</text>
+  <rect class="box" x="650" y="160" width="90" height="55" rx="12"/><text x="695" y="193" text-anchor="middle">Remote</text>
+  <path class="arrow" d="M175 125 H220"/><path class="arrow" d="M390 125 H435"/><path class="arrow" d="M605 105 L650 70"/><path class="arrow" d="M605 145 L650 180"/>
+</svg>
